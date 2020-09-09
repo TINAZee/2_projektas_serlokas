@@ -1,0 +1,55 @@
+body {
+    background-color: #EAEBED;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+    main {
+        display:inline-block;
+        width:800px;
+        /*reikalingas, kad viskas pavaziuotu zemyn*/
+        margin-top: 100px;
+    }
+
+        div{
+            width: 50%; 
+            float: left;
+        }
+            img{
+                width: 80%;
+            }
+        h1{
+            width: 100%; 
+            display: inline-block;
+            font-size: 100px;
+            color: #374049;
+            /*tarpai*/
+            margin:0;
+            /*atsistuminas nuo tarpu*/
+            margin-bottom: 20px;
+            
+        }
+        p{
+            width: 100%;
+            display: inline-block;
+            font-size: 35px;
+            color: #757783;
+            margin: 0;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        
+        }
+/* padaryt, kad kas antrai p sukurtu atskira stiliu, 2-antras,2n-kas antra */
+        p:nth-of-type(2n){
+            font-size:18px;
+            color: #757783;
+
+        }
+        a{
+            display: inline-block;
+            background-color: #696F89;
+            color: #ffffff;
+            padding: 20px;
+            text-decoration: none;
+            
+        }
